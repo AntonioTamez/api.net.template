@@ -4,6 +4,8 @@ Usa dotnet ef dbcontext scaffold para generar las clases.
 
 ```sh
 dotnet ef dbcontext scaffold "Server=TU_SERVIDOR;Database=TU_BD;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -f
+o
+dotnet ef dbcontext scaffold "Server=TU_SERVIDOR;Database=TU_BD;User Id=Tu_Usuario_;Password=TuPassword;Encrypt=False;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -o Models -f
 ```
 
 Parámetros útiles:
